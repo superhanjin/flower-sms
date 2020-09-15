@@ -1,7 +1,7 @@
-/home/project/sms/src/main/java/awslv2flower/SmsApplication.java
-/home/project/sms/src/main/java/awslv2flower/AbstractEvent.java
-/home/project/sms/src/main/java/awslv2flower/PolicyHandler.java
-/home/project/sms/src/main/java/awslv2flower/Ordered.java
-/home/project/sms/src/main/java/awslv2flower/config/kafka/KafkaProcessor.java
-/home/project/sms/src/main/java/awslv2flower/Shipped.java
-/home/project/sms/src/main/java/awslv2flower/OrderCanceled.java
+/home/project/flower-sms/src/main/java/awslv2flower/SmsApplication.java
+/home/project/flower-sms/src/main/java/awslv2flower/AbstractEvent.java
+/home/project/flower-sms/src/main/java/awslv2flower/PolicyHandler.java
+/home/project/flower-sms/src/main/java/awslv2flower/config/kafka/KafkaProcessor.java
+/home/project/flower-sms/src/main/java/awslv2flower/OrderCanceled.java
+/home/project/flower-sms/src/main/java/awslv2flower/Shipped.java
+/home/project/flower-sms/src/main/java/awslv2flower/Ordered.java
