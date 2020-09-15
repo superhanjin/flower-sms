@@ -59,4 +59,5 @@ public class Ordered extends AbstractEvent {
     public void setStatus(String status) {
         this.status = status;
     }
+
 }
