@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sms
-          image: username/sms:latest
+          image: 271153858532.dkr.ecr.ap-northeast-2.amazonaws.com/flower-sms:v1 
           ports:
             - containerPort: 8080
           readinessProbe:
