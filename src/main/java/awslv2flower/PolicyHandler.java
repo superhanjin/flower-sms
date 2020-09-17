@@ -16,10 +16,10 @@ public class PolicyHandler{
     }
 
     @StreamListener(KafkaProcessor.INPUT)
-    public void wheneverOrdered_SendingSms(@Payload Ordered ordered){
+    public void wheneverOrdered_SendingSms(@Payload PaymentConfirmed paymentConfirmed){
 
-        if(ordered.isMe()){
-            System.out.println("##### listener SendingSms : " + ordered.toJson());
+        if(paymentConfirmed.isMe()){
+            System.out.println("##### listener SendingSms : " + paymentConfirmed.toJson());
         }
     }
     @StreamListener(KafkaProcessor.INPUT)
